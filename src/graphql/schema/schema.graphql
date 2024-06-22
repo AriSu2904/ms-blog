@@ -1,0 +1,8 @@
+type Post {
+    author: String!
+    title: String!
+    content: String
+    tags: [String]
+    createdAt: String
+    modifiedAt: String
+}

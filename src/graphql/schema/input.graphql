@@ -1,0 +1,5 @@
+input InputPost {
+    title: String!
+    content: String
+    tags: [String]
+}

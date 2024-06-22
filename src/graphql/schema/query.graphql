@@ -1,0 +1,5 @@
+type Query {
+    listPost: [Post]!
+    getPost(title: String!): Post!
+    test: String!
+}
