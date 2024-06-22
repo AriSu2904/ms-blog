@@ -1,6 +1,13 @@
+type Author {
+    firstName: String,
+    lastName: String,
+    email: String
+}
+
 type Post {
-    author: String!
-    title: String!
+    id: String
+    author: Author
+    title: String
     content: String
     tags: [String]
     createdAt: String

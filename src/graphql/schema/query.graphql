@@ -1,5 +1,5 @@
 type Query {
-    listPost: [Post]!
-    getPost(title: String!): Post!
+    listPost: [Post]
+    getPost(id: String!): Post!
     test: String!
 }
